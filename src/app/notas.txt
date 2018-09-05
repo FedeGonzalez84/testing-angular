@@ -1,0 +1,20 @@
+Para correr las pruebas en la linea de comandos escribir:
+ng test
+
+Para ver el porcentaje de cobertura de la prueba:
+ng test --code-coverage
+
+Para evitar que se corra una prueba se agrega una 'x' delante del nombre
+
+// ------------------------------------------
+El test unitario siempre tiene esta forma:
+
+describe('' , () => {
+    ...
+    it( '', () => {
+        ....
+        expect()....
+    });
+});
+// ------------------------------------------
+
