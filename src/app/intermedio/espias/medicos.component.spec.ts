@@ -73,6 +73,7 @@ it('Debe de llamar al servidor para borrar un medico', () => {
     componente.borrarMedico('1');
     expect( espia ).not.toHaveBeenCalledWith('1');
 });
+// ---------------------------------------------------------------------------------
 
 });
 // #################################################################
